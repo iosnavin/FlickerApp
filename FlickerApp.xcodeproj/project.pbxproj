@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		258FB6DC17BEE1B8F083CF33 /* Pods_FlickerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4835A6BCD53B5914FC3693 /* Pods_FlickerApp.framework */; };
 		5A24A5B02C3DA752006D5C09 /* FlickerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A24A5AF2C3DA752006D5C09 /* FlickerAppApp.swift */; };
-		5A24A5B22C3DA752006D5C09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A24A5B12C3DA752006D5C09 /* ContentView.swift */; };
+		5A24A5B22C3DA752006D5C09 /* FlickerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A24A5B12C3DA752006D5C09 /* FlickerHomeView.swift */; };
 		5A24A5B42C3DA754006D5C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A24A5B32C3DA754006D5C09 /* Assets.xcassets */; };
 		5A24A5B72C3DA754006D5C09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A24A5B62C3DA754006D5C09 /* Preview Assets.xcassets */; };
 		5A24A5C12C3DA754006D5C09 /* FlickerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A24A5C02C3DA754006D5C09 /* FlickerAppTests.swift */; };
@@ -63,7 +63,7 @@
 		5658F1D6E567E3AE1F6664F9 /* Pods_FlickerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A24A5AC2C3DA752006D5C09 /* FlickerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A24A5AF2C3DA752006D5C09 /* FlickerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerAppApp.swift; sourceTree = "<group>"; };
-		5A24A5B12C3DA752006D5C09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A24A5B12C3DA752006D5C09 /* FlickerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerHomeView.swift; sourceTree = "<group>"; };
 		5A24A5B32C3DA754006D5C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A24A5B62C3DA754006D5C09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A24A5BC2C3DA754006D5C09 /* FlickerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -245,7 +245,7 @@
 				5A24A5EE2C3DC1F0006D5C09 /* CardView.swift */,
 				5A24A5E42C3DBF44006D5C09 /* SearchAsyncImageView.swift */,
 				5A24A6072C3DEFEB006D5C09 /* PhotoDetailView.swift */,
-				5A24A5B12C3DA752006D5C09 /* ContentView.swift */,
+				5A24A5B12C3DA752006D5C09 /* FlickerHomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -510,7 +510,7 @@
 				5A24A60C2C3DF09B006D5C09 /* Images.swift in Sources */,
 				5A24A5F32C3DDC0F006D5C09 /* Animations.swift in Sources */,
 				5A24A5F72C3DE027006D5C09 /* StateViewView.swift in Sources */,
-				5A24A5B22C3DA752006D5C09 /* ContentView.swift in Sources */,
+				5A24A5B22C3DA752006D5C09 /* FlickerHomeView.swift in Sources */,
 				5A24A5E72C3DC150006D5C09 /* FlickrService.swift in Sources */,
 				5A24A5EF2C3DC1F0006D5C09 /* CardView.swift in Sources */,
 				5A24A5B02C3DA752006D5C09 /* FlickerAppApp.swift in Sources */,
